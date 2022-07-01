@@ -1,0 +1,7 @@
+import DEV  from "./DEV.json";
+import DEX  from "./DEX.json";
+
+export const EXCHANGE_CONTRACT_ABI = DEX.abi
+export const EXCHANGE_CONTRACT_ADDRESS = "0x7A42d9E68FD9f02d4854afE9C3B689FC25BDA345"
+export const TOKEN_CONTRACT_ABI = DEV.abi
+export const TOKEN_CONTRACT_ADDRESS = "0x8DC91fe5e5190052Eda15c48f4aD5BDF18eD3fe2"
